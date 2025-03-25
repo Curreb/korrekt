@@ -38,8 +38,8 @@ public class RegistrationSteps {
     public void enterValidDetails() {
         driver.findElement(By.id("member_firstname")).sendKeys("John");
         driver.findElement(By.id("member_lastname")).sendKeys("Doe");
-        driver.findElement(By.id("member_emailaddress")).sendKeys("abcdefgqhid@example.com");
-        driver.findElement(By.id("member_confirmemailaddress")).sendKeys("abcdefgqhid@example.com");
+        driver.findElement(By.id("member_emailaddress")).sendKeys("abcdefgqhikd@example.com");
+        driver.findElement(By.id("member_confirmemailaddress")).sendKeys("abcdefgqhikd@example.com");
         driver.findElement(By.id("signupunlicenced_password")).sendKeys("Password123");
         driver.findElement(By.id("signupunlicenced_confirmpassword")).sendKeys("Password123");
         driver.findElement(By.id("dp")).sendKeys("02/07/2000");
